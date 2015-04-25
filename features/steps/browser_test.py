@@ -1,4 +1,4 @@
-@given(u'that splinter and the chrome web driver are installed correctly')
+@given(u'that splinter and the phantomJS driver are installed correctly')
 def step_impl(context):
     try:
         import splinter
